@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/characters.css' | relative_url }}">
+  </head>
+  <body class="background">
+    <div style="display: flex; flex-direction: column; min-height: 100vh;">
+      <header>
+        {% include header.html %}
+      </header>
+      <style>
+        .item-category {
+            max-width: 400px;
+            display: flex;
+            flex-direction: column; /* Or row for horizontal layout */
+            align-items: center;
+            margin: 20px 0; /* Space between categories */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+        }
+        .items-container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+      </style>
+      <main class="background">
+        <div class="container content">
+            <h1>Items Overview</h1>
+            <div class="items-container">
+                
+                <div class="item-category content">
+                    <a href="normal/normal-items">
+                        <h2 style="color: gold;">Normal Items</h2>
+                    </a>
+                    <p>Explore everyday items used by adventurers, craftsmen, and common folk.</p>
+                </div>
+                
+                <div class="item-category content">
+                    <a href="magical/">
+                        <h2 style="color: gold;">Magical Items</h2>
+                    </a>
+                    <p>Discover enchanted items that hold extraordinary powers.</p>
+                    <ul class="magical-list" style="display: flex; flex-direction: column;">
+                        <li style="width: 100%;"><a href="magical/camping-box">Camping box</a></li>
+                        <li style="width: 100%;"><a href="magical/holding-bracelet-box">Bracelet of Holding</a></li>
+                        <li style="width: 100%;"><a href="magical/scribing-quill">Quill of Scribing</a></li>
+                        <li style="width: 100%;"><a href="magical/wish-ring">Ring of Wishes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="item-category content">
+                    <a href="artefact/">
+                        <h2 style="color: gold;">Artifacts</h2>
+                    </a>
+                    <p>Unravel the mysteries of ancient artifacts with unique abilities.</p>
+                </div>
+            </div>
+        </div>
+      </main>
+      
+      <footer class="highlight">
+        {% include footer.html %}
+      </footer>
+    </div>
+  </body>
+</html>

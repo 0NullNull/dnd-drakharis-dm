@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/updates.css' | relative_url }}">
+  </head>
+  <body class="background">
+    <div style="display: flex; flex-direction: column; min-height: 100vh;">
+      <header>
+        {% include header.html %}
+      </header>
+      
+      <main class="background">
+        <div class="container content i-text redacted date">
+          {{content}}
+          {% for update in site.pages %}
+            {% if update.path contains 'updates/' and update.title != page.title %}
+                <div class="update-item">
+                  <h2>{{update.title}}</h2>
+                  <p><em>{{update.date | date: "%d %B, %Y"}}</em></p>
+                  {{update.content | markdownify}}
+                </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+      </main>
+      
+      <footer class="highlight">
+        {% include footer.html %}
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body class="background">
+    <div style="display: flex; flex-direction: column; min-height: 100vh;">
+      <header>
+        {% include header.html %}
+      </header>
+      
+      <main class="background">
+        <div class="container content i-text redacted date">
+          <style>
+            .mechanic-container {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              background-color: rgb(41, 41, 41);
+              width: 90%;
+              margin-top: 20px;
+              border-radius: 10px;
+              padding: 20px;
+            }
+            li {
+              color: white;
+            }
+            h2 a {
+              text-decoration: none;
+              color: wheat;
+            }
+            h1 {
+              text-align: center;
+              margin-top: -5px;
+            }
+            h3 a {
+              text-decoration: none;
+              color: rgb(172, 149, 99);
+            }
+            .description {
+              width: 60%;
+              margin-bottom: 20px;
+            }
+          </style>
+          <div class="mechanic-container">
+            {{content}}
+          </div>
+        </div>
+      </main>
+      
+      <footer class="highlight">
+        {% include footer.html %}
+      </footer>
+    </div>
+  </body>
+</html>

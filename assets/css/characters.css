@@ -1,0 +1,65 @@
+.character-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 20px; /* Space between items */
+}
+
+.character-item {
+    text-align: center; /* Center text */
+}
+
+/* Optional: Style the links */
+a.character-link{
+    display: block; /* Make links fill the character item */
+    padding: 10px;
+    background-color: #252525; /* Light background */
+    border: 1px solid gold; /* Border around each item */
+    border-radius: 5px; /* Rounded corners */
+    color: gold; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+.magical-list li {
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #1a1a1a; /* Darken background on hover */
+}
+
+.description {
+    max-width: 1200px;
+    padding: 10px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #292929;
+    box-shadow: 2px 2px 20px black;
+}
+.container ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container ul li {
+    width: 250px;
+}
+
+.container ul a {
+    text-align: center;
+    display: block; /* Make links fill the character item */
+    padding: 10px;
+    background-color: #252525; /* Light background */
+    border: 1px solid gold; /* Border around each item */
+    border-radius: 5px; /* Rounded corners */
+    color: gold; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+.container a {
+    color: gold;
+    text-decoration: underline;
+}

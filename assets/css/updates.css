@@ -1,0 +1,16 @@
+.update-item {
+    width: 80%;
+    margin-top: 5px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    border: 1px solid gold;
+    padding: 10px;
+}
+.update-item li {
+    color: white;
+}
+
+.update-item a {
+    text-decoration: none;
+    color: rgb(255, 242, 167);
+}

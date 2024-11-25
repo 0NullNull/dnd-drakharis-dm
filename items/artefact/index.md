@@ -11,7 +11,7 @@ Welcome to the artefacts page! Below is a list of artefacts in the world:
 {% for character in site.pages %}
     {% if character.path contains 'artefact/' and character.title != page.title %}
         <div class="character-item">
-            <a class="character-link" href="/{{ character.url }}">{{ character.title }}</a>
+            <a class="character-link" href="{{ character.url | relative_url}}">{{ character.title }}</a>
         </div>
     {% endif %}
 {% endfor %}

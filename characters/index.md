@@ -11,7 +11,7 @@ Welcome to the characters page! Below is a list of notable characters in the wor
 {% for character in site.pages %}
     {% if character.path contains 'characters/' and character.title != page.title %}
         <div class="character-item">
-            <a class="character-link" href="/{{ character.url }}">{{ character.title }}</a>
+            <a class="character-link" href="{{ character.url | absolute_url }}">{{ character.title }}</a>
         </div>
     {% endif %}
 {% endfor %}

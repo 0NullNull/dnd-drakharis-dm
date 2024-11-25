@@ -11,7 +11,7 @@ Welcome to the factions page! Below is a list of notable factions in the world:
 {% for character in site.pages %}
     {% if character.path contains 'factions/' and character.title != page.title %}
         <div class="faction-item">
-            <a class="faction-link" href="{{ character.url }}">{{ character.title }}</a>
+            <a class="faction-link" href="{{ character.url | absolute_url}}">{{ character.title }}</a>
             <p>{{ character.description }}</p>
         </div>
     {% endif %}

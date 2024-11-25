@@ -11,5 +11,5 @@ Explore the world of our campaign by checking out these sections:
 - [Items](items/)
 - [Lore](lore/)
 - [Stories](story/)
-- [Mechanics](Mechanics/)
+- [Mechanics](mechanics/)
 - [Updates](updates)

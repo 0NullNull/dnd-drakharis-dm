@@ -1,17 +1,14 @@
 ---
-layout: characters
+layout: faction
 title: "Lore"
 ---
 
-# Lore
-
-Welcome to the lore page! Below is a list of notable items in the world:
-
-<div class="character-list">
-{% for item in site.pages %}
-    {% if item.path contains 'lore/' and item.title != page.title %}
-        <div class="character-item">
-            <a  class="character-link" href="{{ item.url | absolute_url }}">{{ item.title }}</a>
+<div class="faction-list">
+{% for character in site.pages %}
+    {% if character.path contains 'lore/' and character.title != page.title %}
+        <div class="faction-item i-text">
+            <a class="faction-link" href="{{ character.url | absolute_url}}"><h2>{{ character.title }}</h2></a>
+            <p>{{ character.description }}</p>
         </div>
     {% endif %}
 {% endfor %}

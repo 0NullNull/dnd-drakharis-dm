@@ -10,7 +10,7 @@ Explore the world of our campaign by checking out these sections:
 - [Characters](characters/)
 - [Items](items/)
 - [Lore](lore/)
-- [The World](story/)
+- [Stories](story/)
 - [Mechanics](mechanics/)
 - [Updates](updates)
 - [DM-Notes](password)

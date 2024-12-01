@@ -20,6 +20,10 @@
       <main class="background">
         <div class="container content">
           {{ content }}
+          <div class="overview">
+            {% capture overview %}{% include world-overview.md %}{% endcapture %}
+            {{ overview | markdownify }}
+          </div>
         </div>
       </main>
       

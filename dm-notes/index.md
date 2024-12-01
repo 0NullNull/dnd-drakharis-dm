@@ -1,15 +1,15 @@
 ---
 layout: faction
-title: "The World"
+title: "DM-Notes"
 ---
 
-# The World
+# DM-Notes
 
 <div class="faction-list">
 {% for character in site.pages %}
-    {% if character.path contains 'story/' and character.title != page.title %}
+    {% if character.path contains 'dm-notes/' and character.title != page.title %}
         <div class="faction-item i-text">
-            <a class="faction-link" href="{{ character.url | absolute_url}}"><h2>{{ character.title }}</h2></a>
+            <a class="faction-link" href="{{ character.url | absolute_url}}">{{ character.title }}</a>
             <p>{{ character.description }}</p>
         </div>
     {% endif %}

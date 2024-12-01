@@ -16,7 +16,8 @@
       <main class="background">
         <div class="container content i-text redacted date">
           {{content}}
-          {% for update in site.pages %}
+          {% assign sorted_updates = site.updates | sort: 'date' | reverse %}
+          {% for update in sorted_updates %}
             {% if update.path contains 'updates/' and update.title != page.title %}
                 <div class="update-item">
                   <h2>{{update.title}}</h2>

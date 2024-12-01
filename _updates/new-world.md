@@ -10,6 +10,6 @@ Changes Made:
 - Revised all six continents (Shengdao, Sylvaris, Glaciaris, Saharun, Vardak, Eldarheim) to better align with the new themes and tone.
 - Created new short descriptions for the continents to appear on the home page.
 - Updated the world’s magic section to reflect the "magic-policing special forces" concept inspired by cyberpsychosis.
-- Renamed the "The World" section to a more fitting title: The Living World.
+- Renamed the "The World" section to a more fitting title: Lore.
 - Added a mysterious element to the oceans, with ancient, enigmatic islands dotting the waters between continents.
 - Finalized the structure for the entry description and world summary on the home page.

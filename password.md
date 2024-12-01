@@ -14,24 +14,15 @@ title: Enter Password
 </div>
 
 <script>
-  // Define the correct password and the target page URL
-  const correctPassword = "secret";
-  const contentPageUrl = "dm-notes/";  // URL of the protected content page
+  (function() {
+  const _0x1234 = "secret", _0x5678 = "dm-notes/", _0x9abc = document["getElementById"]("password-input"), _0xdef0 = document["getElementById"]("submit-password"), _0x123abc = document["getElementById"]("error-message");
 
-  // Get references to elements
-  const passwordInput = document.getElementById("password-input");
-  const submitButton = document.getElementById("submit-password");
-  const errorMessage = document.getElementById("error-message");
-
-  // Add event listener to the submit button
-  submitButton.addEventListener("click", () => {
-    // Check if the entered password is correct
-    if (passwordInput.value === correctPassword) {
-      // Redirect to the protected content page
-      window.location.href = contentPageUrl;
+  _0xdef0["addEventListener"]("click", function() {
+    if (_0x9abc["value"] === _0x1234) {
+      window["location"]["href"] = _0x5678;
     } else {
-      // Display an error message
-      errorMessage.textContent = "Incorrect password. Please try again.";
+      _0x123abc["textContent"] = "Incorrect password. Please try again.";
     }
   });
+})();
 </script>

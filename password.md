@@ -15,7 +15,7 @@ title: Enter Password
 
 <script>
   (function() {
-  const _0x1234 = "secret", _0x5678 = "dm-notes/", _0x9abc = document["getElementById"]("password-input"), _0xdef0 = document["getElementById"]("submit-password"), _0x123abc = document["getElementById"]("error-message");
+  const _0x5678 = "dm-notes/", _0x9abc = document["getElementById"]("password-input"), _0x1234 = "secret", _0xdef0 = document["getElementById"]("submit-password"), _0x123abc = document["getElementById"]("error-message");
 
   _0xdef0["addEventListener"]("click", function() {
     if (_0x9abc["value"] === _0x1234) {

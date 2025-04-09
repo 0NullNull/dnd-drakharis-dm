@@ -2,6 +2,8 @@
 layout: dm-notes
 title: "🐀 The Vilekin"
 ---
+<img src="{{ '/assets/images/vilekin.jpg'  | relative_url }}" style="max-width:500px;">
+
 # 🐀 The Vilekin
 A cunning, mutated race of ratlike humanoids that infest the sewers, ruins, and forgotten tunnels beneath civilization.
 
@@ -39,6 +41,34 @@ The average Vilekin lives and dies by the Black Doctrine: “What is taken is ea
 * They control most of the illegal trade in major cities and act as middlemen between rival factions, thieves' guilds, and darker entities.
 
 "*If you want to vanish a noble, sell a soul, or find a forgotten god’s tooth… you go to the Vilekin.*"
+### 🐀 The Vilekin Blackmarket System
+* Tattoo of the Rat’s Eye – The Mark of Status  
+Appearance:  
+**A small, stylized tattoo resembling a rat’s eye, usually located:**  
+Behind the ear (discreet, but easy to show)  
+On the back of the hand or wrist (for higher ranks)  
+On the chest (for elite members)  
+**The design becomes more intricate depending on rank:**  
+Initiate : A simple slit-eye shape, black ink only.  
+Runner : The eye is encircled by a faint ring—shows they’ve earned trust.  
+Claw : The eye now has a cross-scar over it, symbolizing danger and deed.  
+Whisper : The eye bleeds a single tear (symbol of deep knowledge or loss).  
+Hollow Fang : The rarest mark—full stylized rat skull around the eye, often with magical ink.
+
+The Rat’s Eye is a magical tattoo granted to trusted members of the Blackmarket underworld, created through an ancient Vilekin ritual known as Soul-Etch Binding. The tattoo is not only etched into the skin but is bound to the bearer’s very soul.
+
+The eye-shaped sigil shifts over time, reflecting the bearer’s standing within the market. When near another true mark, it emits a subtle, rhythmic pulse—a sign of mutual recognition. Each tattoo carries an invisible arcane signature unique to the Etcher who applied it, allowing it to be authenticated through touch or specific ritual sight.
+
+Any attempt to forge the tattoo will result in a lifeless mark, and if discovered, being caught with a counterfeit tattoo is considered a grave offense. Consequences for possessing a forged Rat’s Eye are severe—those caught face harsh retribution, ranging from exile to a more permanent fate, depending on the severity of the offense. Only those with a true Rat’s Eye tattoo can move freely within the market’s hidden network. Others must rely on temporary access tokens or pay tolls in Gnaws, the Blackmarket’s unique undercurrency.
+
+* Market Access Currency – "Gnaws"  
+Name: **Gnaws**  
+(Also known as "***bites***" on the street)  
+Description: A small, jagged coin made of warped bone and lead, with a tiny bite mark on one edge and the image of a rat skull on one side, and a claw print on the other. They’re made by the Vilekin’s underground mint and each one is alchemically treated to be extremely difficult to forge. Faint trace magic marks them as “genuine” to anyone who knows how to test for it.  
+**Uses**:  
+Entry into the market (for non-tattooed visitors) – a payment of 1 ***bite*** is required.  
+Certain services within the Blackmarket only accept Gnaws (such as forbidden scroll copying, organ trades, poison exchanges, etc.).  
+Sometimes used in coded bets or bribes, since they're untraceable to surface-world economies.
 
 ## 🐀 Racial Traits (Homebrew Suggestion)
 Vilekin (Ratfolk)

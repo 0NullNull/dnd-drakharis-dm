@@ -89,19 +89,41 @@ The Overwhelming Fight is activated when one side demonstrates a significant adv
 ## Benefits of the Overwhelming Side
 When one side qualifies for the Overwhelming Fight, they gain significant advantages, which can include:
 
-- Decisive Strikes: Successful attacks against **significantly** weaker opponents result in outright kills without needing to roll for damage, representing the sheer power of the overwhelming side.
+### Decisive Strikes  
+Description: When the overwhelming side attacks an enemy that is significantly weaker, the attack results in an automatic kill, representing the sheer difference in strength and the speed with which the stronger side overwhelms the opponent.
+Criteria:
 
-- Diminished Resistance: Weaker opponents may struggle to land successful attacks, with their strikes often being deflected or ignored.
+* This applies to individual enemies who are either outnumbered by the overwhelming side or have less than half of the health compared to the average health of the players.
+
+* Flavor: These enemies are taken down with a decisive strike, as the overwhelming side’s superior strength, precision, or sheer force simply ends the fight.
 
 ### Unique Actions: 
 The overwhelming side may access unique combat maneuvers that showcase their dominance. These actions could defy standard combat rules, such as:
 
-- Brutal Finish:  
-An overwhelming attack that automatically takes down a foe without having to roll for damage.
-- Frightening Presence:  
-A skill that causes weaker foes to hesitate, granting disadvantage on their next attack rolls.
-- Unyielding Defense:  
-A passive ability that allows the overwhelming side to ignore a certain number of successful hits, reflecting their superior resilience.
+* **Brutal Finish**:  
+    * Description: The overwhelming side can declare a Brutal Finish after successfully hitting a weak enemy. The attack automatically takes the foe down with a swift and lethal strike.
+
+    * Usage: Once per turn, the overwhelming side may choose to perform a Brutal Finish after successfully hitting an opponent. The attack automatically kills the opponent without needing to roll damage.
+
+    * Restrictions: Can only be used on creatures who are significantly injured (i.e., reduced to less than 25% of their maximum hit points).
+
+    * Flavor: This maneuver is described as a powerful blow or finishing move that takes an enemy out of the fight immediately.
+* **Frightening Presence**:  
+    * Description: The overwhelming side exudes an aura of fear and dominance, causing weaker enemies to panic or flee. The sight of their strength alone is enough to make enemies question their chances, sowing terror in their hearts.
+
+    * Usage: As a bonus action, the overwhelming side may use Frightening Presence. All enemies who are outnumbered, weak, or significantly injured within 10 feet must succeed on a Wisdom saving throw (DC 14) or become either frightened for 1 minute or start to flee.
+        * Fleeing: On a failed save, the affected enemies must immediately use their reaction to move as far away as possible from the overwhelming side, seeking to escape the battle. This could result in them running toward other enemies (if applicable) or toward an exit, depending on the environment.
+    * Restrictions: Can only be used once per encounter.
+
+    * Flavor: The mere presence of the overwhelming side causes weaker enemies to hesitate, their resolve crumbling as they face certain defeat.
+* **Unyielding Defense**:  
+    * Description: The overwhelming side has a well of resilience that they can tap into during combat, drawing on their inner strength to absorb damage. However, this comes at a cost, as they must expend their own vitality to endure the blows.
+
+    * Usage: When the overwhelming side is hit by a non-critical attack, they can choose to expend a hit die to reduce the incoming damage by an amount equal to the rolled result of the hit die + their Constitution modifier (if any).
+
+    * Cost: Expend one hit die to reduce the damage. The player rolls the hit die and subtracts that amount from the incoming damage.
+
+    * Flavor: The overwhelming side draws on their stamina or sheer willpower to tough out an attack, using their own life force to resist harm in the heat of battle.
 
 ## Perceptive Cues for Players:
 If the enemies have the upper hand, players may notice changes in the enemies’ behavior, such as becoming cocky or taunting. This could signal that the enemies are activating the overwhelming bonuses, hinting that it might be wise to retreat before the foes fully harness the advantages of the Overwhelming Fight. The DM can drop subtle clues—like a villain’s laughter or dismissive gestures—that indicate the tide has turned, prompting players to reconsider their strategy.

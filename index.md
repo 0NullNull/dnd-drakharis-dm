@@ -17,6 +17,7 @@ Explore the world of our campaign by checking out these sections:
 
 <br>
 <br>
+<img src="{{ '/assets/images/DrakharisMap.png'  | relative_url }}" style="width: 100%;">
 <div>
   <audio id="prologueAudio" controls>
     <source src="{{ '/assets/sounds/drakharis.mp3' | relative_url }}?v={{ new Date().getTime() }}" type="audio/mpeg">

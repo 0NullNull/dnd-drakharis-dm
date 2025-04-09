@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/item.css' | relative_url }}">
+  </head>
+  <body class="background">
+    <div style="display: flex; flex-direction: column; min-height: 100vh;">
+      <header>
+        {% include header.html %}
+      </header>
+      <main class="background">
+        <div class="container content">
+          <div class="description">
+            <style>
+              
+            </style>
+            <div style="display: flex; flex-wrap: wrap;align-items: flex-start;">
+              <div >
+                {% if page.image %}
+                 <img src="{{ page.image | relative_url}}" alt="Image for {{ page.title }}"style="max-width: 500px;  border: 1px solid gold; border-radius: 20px;">
+                {% endif %}
+              </div>
+              <div style="flex:1; margin: 20px; ">
+                {{ page.short_text | markdownify }}
+              </div>
+            </div>
+            <div>
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      <footer class="highlight">
+        {% include footer.html %}
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,11 +1,11 @@
 ---
 layout: characters
-title: "Artefacts"
+title: "Artifacts"
 ---
 
-# Artefacts
+# Artifacts
 
-Welcome to the artefacts page! Below is a list of artefacts in the world:
+Welcome to the artifacts page! Below is a list of artefacts in the world:
 
 <div class="character-list">
 {% for character in site.pages %}

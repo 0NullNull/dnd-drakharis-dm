@@ -3,7 +3,7 @@ layout: story
 title: "Escape from Vardak - part 2"
 description: "After deciding to trust Lady Marissa, the group agrees to carry out a mission for her—damage the land or forces of the rival warlord Korath, in exchange for her help in getting them out of Vardak. They opt to burn down a village under Korath's control, leading to a chaotic and clumsy but successful attack. Impressed by their work, Lady Marissa provides them with a small ship and a magical insignia that will allow them to contact her. With their freedom at last, they prepare to sail away from Vardak and into the unknown."
 ---
-# Part 2: The Deal with Lady Marissa  
+# Part 2:<br> The Deal with Lady Marissa  
 <br>
 
 After much deliberation, the group decided to trust Lady Marissa, at least for the time being. They made their way to her war camp, Vultures Perch, where she wasted no time giving them their first task: damage the rival warlord Korath, the very man whose grasp they had just escaped. Lady Marissa’s terms were simple—hurt Korath or his land in some way, and in return, she would help them leave Vardak.  

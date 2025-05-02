@@ -3,7 +3,7 @@ layout: story
 title: "Escape from Vardak - part 1"
 description: "A group of enslaved individuals, shackled and transported across the war-torn coast of Vardak, seized an unexpected opportunity for freedom when a rogue freed them using hidden lockpicks. In the chaos of a wraith attack on their caravan, they fled into the wilderness, evading a relentless search party. After days of flight, they looted farmhouses for supplies and arrived at the port of Haven Gate, where they received a mysterious letter from Lady Marissa, offering help in exchange for their aid. Now, they must decide whether to trust her and return deeper into Vardak or seek their fortune elsewhere."
 ---
-# The Escape from Vardak - A Fateful Beginning  
+# The Escape from Vardak<br> A Fateful Beginning  
 <br>
 
 Their journey began under the harshest of circumstances: slaves from various parts of the world, shackled and transported in a grim caravan along the desolate coast of Vardak, a war-torn land ravaged by endless conflict and despair. For what seemed like an eternity, they had been nothing but cargo—treated as little more than property, forced into servitude for masters whose names and faces remained a mystery. Their lives had been a blur of misery and humiliation, until that fateful day.  

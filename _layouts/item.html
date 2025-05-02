@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/characters.css' | relative_url }}">
-    <script src='/dnd-drakharis-dm/assets/JS/p.js'></script>
+    <link rel="stylesheet" href="{{ '/assets/css/item.css' | relative_url }}">
   </head>
   <body class="background">
     <div style="display: flex; flex-direction: column; min-height: 100vh;">
       <header>
         {% include header.html %}
       </header>
-      <style>
-        h1{
-          text-align: center;
-        }
-      </style>
       <main class="background">
         <div class="container content">
-          {{ content }}
+          <div class="description i-text">
+            <style>
+              
+            </style>
+            {{ content }}
+          </div>
         </div>
       </main>
       

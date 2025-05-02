@@ -10,19 +10,7 @@ title: Enter Password
 <div id="password-section">
   <input type="password" id="password-input" placeholder="Password">
   <button id="submit-password">Submit</button>
-  <div class="error-message" id="error-message"></div>
+  <div class="error-message" id="error-message" style="display:none"></div>
 </div>
 
-<script>
-  (function() {
-  const _0x5678 = "dm-notes/", _0x9abc = document["getElementById"]("password-input"), _0x1234 = "secret", _0xdef0 = document["getElementById"]("submit-password"), _0x123abc = document["getElementById"]("error-message");
 
-  _0xdef0["addEventListener"]("click", function() {
-    if (_0x9abc["value"] === _0x1234) {
-      window["location"]["href"] = _0x5678;
-    } else {
-      _0x123abc["textContent"] = "Incorrect password. Please try again.";
-    }
-  });
-})();
-</script>

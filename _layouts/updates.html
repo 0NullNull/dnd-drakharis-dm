@@ -21,7 +21,7 @@
             {% if update.path contains 'updates/' and update.title != page.title %}
                 <div class="update-item">
                   <h2>{{update.title}}</h2>
-                  <p><em>{{update.date | date: "%d %B, %Y"}}</em></p>
+                  <p><em>released {{update.date | date: "%d %B, %Y"}}</em></p>
                   {{update.content | markdownify}}
                 </div>
             {% endif %}
